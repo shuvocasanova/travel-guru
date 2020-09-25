@@ -1,0 +1,54 @@
+
+.home-text{
+    margin-left: 80px;
+}
+
+.home-btn{
+    width : 25%;
+    height: 10%;
+    background-color: orange;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid orange;
+    color: black;
+}
+
+.home-text p{
+    width: 460px;
+    word-wrap: break-word;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(216, 199, 199);
+    font-weight: 20px;
+
+}
+.home-text h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 72px;
+    color: #fff;
+}
+.home-image img{
+    height: 350px;
+    width: 250px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+  .text {
+    color: white;
+    font-size: 22px;
+    padding: 6px 66px;
+  }
+  
+.home-image img:hover{
+    opacity: 0.7;
+
+}
+
+.home{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(../../images/Rectangle\ 1.png);
+    background-size: cover;
+    height: 100vh;
+    background-position:center;
+    background-repeat: no-repeat;
+}
